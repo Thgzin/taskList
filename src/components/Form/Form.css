@@ -1,0 +1,48 @@
+.form{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"]::placeholder{
+  text-align: center;
+
+}
+
+.form input[type="text"]{
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+  outline: none;
+}
+
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: #f04c64;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.custom-btn:hover{
+  transition:  300ms ease-in;
+  background: #fafafa;
+  color: #f04c64;
+  border: 0.1px solid #f04c64;
+}

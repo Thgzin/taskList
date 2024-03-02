@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+ /* background: #0a4f70;*/
+ background: rgb(14,27,42);
+ background: linear-gradient(90deg, rgba(14,27,42,1) 30%, rgba(61,75,90,1) 69%, rgba(105,102,99,1) 97%);
+}
